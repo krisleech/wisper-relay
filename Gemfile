@@ -1,4 +1,11 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in wisper-relay.gemspec
 gemspec
+
+gem "rspec"
+gem "bundler"
+
+group :extras do
+  gem "rake"
+  gem "pry-byebug"
+end
